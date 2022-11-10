@@ -42,10 +42,6 @@ echo "Permission of root"
 echo "#################################"
 chmod -v 750 /root
 
-echo "Enabling Xero-G Tool"
-echo "#################################"
-mv $HOME/xero-g.desktop $HOME/.config/autostart/
-
 echo "Applying Flatpak GTK Overrides"
 echo "#################################"
 sudo flatpak override --filesystem=$HOME/.themes
