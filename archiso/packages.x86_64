@@ -38,6 +38,7 @@ fd
 fsarchiver
 gnu-netcat
 gpart
+gparted
 gpm
 gptfdisk
 hdparm
@@ -90,7 +91,6 @@ ppp
 pptpclient
 pv
 reflector
-#refind
 rp-pppoe
 rsync
 screen
@@ -124,10 +124,10 @@ xl2tpd
 ### Grub Stuff
 
 grub
+os-prober
 grub-tools
 update-grub
 grub-customizer
-os-prober-btrfs
 
 ### archiso-extra
 
@@ -151,6 +151,7 @@ mesa
 xf86-video-qxl
 xf86-video-fbdev
 xf86-video-vmware
+qemu-hw-display-qxl
 xf86-video-openchrome
 
 ### Input
@@ -181,6 +182,7 @@ scanner-support
 
 ### XeroLinux Build
 
+xero-g-tool
 xero-calamares
 xero-fix-scripts
 calamares-config-g
@@ -451,6 +453,7 @@ breeze
 
 ### Multimedia
 
+ffmpeg
 ffmpegthumbs
 
 ### PKG Management
