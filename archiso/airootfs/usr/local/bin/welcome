@@ -1,0 +1,4 @@
+#!/bin/bash
+yad --title "XeroLinux Welcome" --form --columns=2 --width=440 --height=80 --text="Welcome to <b>XeroLinux</b>. Click button below to begin installation" --image=$HOME/xero.png  \
+--field="<b>Start XeroLinux Installer</b>":fbtn "sh -c 'sudo -E /usr/bin/calamares -D6'" \
+--button=Exit:1
