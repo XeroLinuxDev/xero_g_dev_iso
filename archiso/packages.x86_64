@@ -149,6 +149,7 @@ logrotate
 
 mesa
 xf86-video-qxl
+xf86-video-vesa
 xf86-video-fbdev
 xf86-video-vmware
 qemu-hw-display-qxl
@@ -350,10 +351,10 @@ dbus-python
 dconf-editor
 laptop-detect
 perl-xml-parser
-edid-decode-git
+#edid-decode-git
 appmenu-gtk-module
 hardcode-fixer-git
-systemd-manager-git
+#systemd-manager-git
 extra-cmake-modules
 
 ### G-Streamer
@@ -511,7 +512,6 @@ gnome-clocks
 gnome-weather
 gnome-session
 gnome-mplayer
-gnome-console
 gnome-nettool
 gnome-applets
 gnome-contacts
@@ -530,23 +530,17 @@ gnome-connections
 gnome-break-timer
 gnome-font-viewer
 gnome-system-tools
-gnome-themes-extra
 gnome-multi-writer
 gnome-disk-utility
 gnome-multi-writer
-gnome-video-effects
-gnome-initial-setup
-gnome-color-manager
 gnome-power-manager
 gnome-bluetooth-3.0
 gnome-control-center
 gnome-system-monitor
-gnome-remote-desktop
 gnome-desktop-common
 gnome-online-accounts
 gnome-settings-daemon
 gnome-epub-thumbnailer
-gnome-icon-theme-extras
 gnome-terminal-transparency
 
 ## GDM
@@ -572,7 +566,6 @@ gnome-shell-extension-appindicator
 
 ## Other GTK Stuff
 
-glade
 sushi
 gedit
 geary
@@ -581,7 +574,6 @@ baobab
 deja-dup
 accerciser
 file-roller
-simple-scan
 font-manager
 xdg-user-dirs-gtk
 libappindicator-gtk3
