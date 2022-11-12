@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
 
-iso_name="xerolinux-gnome"
-iso_label="XEROLINUX_GNOME"
-iso_publisher="XeroLinux <https://xldb.techxero.com>"
+iso_name="xero-g"
+iso_label="XERO_G"
+iso_publisher="XeroLinux <https://xerolinux.xyz>"
 iso_application="XeroLinux Live/Rescue CD"
 iso_version="Dev"
 install_dir="arch"
