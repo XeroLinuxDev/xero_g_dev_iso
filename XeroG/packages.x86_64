@@ -183,6 +183,7 @@ scanner-support
 
 ### XeroLinux Build
 
+abs
 xero-g-tool
 xero-calamares
 xero-fix-scripts
@@ -264,6 +265,7 @@ adobe-source-sans-pro-fonts
 qt5ct
 kvantum
 neofetch
+gradience
 
 ### Rice/Config Related
 
