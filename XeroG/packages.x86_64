@@ -105,6 +105,7 @@ systemd-resolvconf
 tcpdump
 terminus-font
 testdisk
+tldr
 tmux
 tpm2-tss
 udftools
@@ -148,6 +149,7 @@ logrotate
 ### Video
 
 mesa
+autorandr
 xf86-video-qxl
 xf86-video-vesa
 xf86-video-fbdev
@@ -185,9 +187,10 @@ scanner-support
 
 abs
 xero-g-tool
+xero-g-config
 xero-calamares
 xero-fix-scripts
-calamares-config-g
+calamares-g-config
 xerolinux-mirrorlist
 
 #######################################################
@@ -209,7 +212,6 @@ bash-completion
 cryptsetup
 brightnessctl
 mkinitcpio-firmware
-power-profiles-daemon
 
 #######################################################
 ###      PACKAGES THAT ARE REQUIRED TO BUILD !      ###
@@ -240,23 +242,28 @@ gtk-update-icon-cache
 jq
 gmrun
 figlet
+ostree
 flatseal
 numlockx
 lm_sensors
+appstream-glib
 
 ### Bat to replace cat
 
 bat
 bat-extras
 
+### Secondary Terminal
+
+alacritty
+alacritty-themes
+
 ### Fonts
 
-ttf-droid
-ttf-roboto
 ttf-fira-code
 otf-libertinus
 tex-gyre-fonts
-#nerd-fonts-hack
+ttf-hack-nerd
 awesome-terminal-fonts
 adobe-source-sans-pro-fonts
 
@@ -264,14 +271,15 @@ adobe-source-sans-pro-fonts
 
 qt5ct
 kvantum
+adw-gtk3
 neofetch
 gradience
+adw-gtk-theme
+gtk-engine-murrine
 
 ### Rice/Config Related
 
-layan-gtk-theme-git
-kvantum-theme-layan-git
-tela-purple-icon-theme-git
+kvantum-theme-libadwaita-git
 
 ### System Utilities
 
@@ -356,7 +364,6 @@ perl-xml-parser
 #edid-decode-git
 appmenu-gtk-module
 hardcode-fixer-git
-#systemd-manager-git
 extra-cmake-modules
 
 ### G-Streamer
@@ -450,10 +457,6 @@ python-websockets
 firefox
 firefox-ublock-origin
 
-### cursors
-
-breeze
-
 ### Multimedia
 
 ffmpeg
@@ -464,10 +467,9 @@ ffmpegthumbs
 yay-bin
 flatpak
 topgrade
-pamac-gtk
-pamac-cli
 pacseek-bin
-pamac-gnome-integration
+gnome-software
+gnome-software-packagekit-plugin
 
 #######################################################
 ###                    EXTRAS                       ###
@@ -491,11 +493,6 @@ virtualbox-guest-utils
 ###                 GNOME Desktop                   ###
 #######################################################
 
-
-## Xero Stuff
-
-#arcolinux-gnome-dconf-git
-#arcolinux-system-installation-git
 
 ## GNOME Stuff
 
@@ -553,7 +550,6 @@ gdm-settings
 ## Gnome File Management
 
 nautilus-launch
-nautilus-sendto
 nautilus-compare
 nautilus-share-gtk4
 nautilus-admin-gtk4

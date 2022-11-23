@@ -1,15 +1,16 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
 
-iso_name="xero-g"
-iso_label="XERO_G"
-iso_publisher="XeroLinux <https://xerolinux.xyz>"
+iso_name="XeroG"
+iso_label="XERO_G_$(date +%Y%m)"
+iso_publisher="XeroG <https://xerolinux.xyz>"
 iso_application="XeroLinux Live/Rescue CD"
-iso_version="Dev-$(date +%Y.%m)"
+iso_version="$(date +%Y.%m)"
 install_dir="arch"
 buildmodes=('iso')
 bootmodes=('bios.syslinux.mbr' 'bios.syslinux.eltorito'
-           'uefi-x64.systemd-boot.esp' 'uefi-x64.systemd-boot.eltorito')
+           'uefi-ia32.grub.esp' 'uefi-x64.grub.esp'
+           'uefi-ia32.grub.eltorito' 'uefi-x64.grub.eltorito')
 arch="x86_64"
 pacman_conf="pacman.conf"
 airootfs_image_type="squashfs"
