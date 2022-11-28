@@ -1,10 +1,10 @@
-NAME="XeroLinux"
-PRETTY_NAME="XeroLinux"
-ID=XeroLinux
+NAME="XeroG-Dev"
+PRETTY_NAME="XeroG-Dev"
+ID=XeroG-Dev
 ID_LIKE=arch
 BUILD_ID=rolling
 ANSI_COLOR="38;2;23;147;209"
 HOME_URL="https://xerolinux.xyz/"
-LOGO=XeroLinux
-IMAGE_ID=XeroLinux
-IMAGE_VERSION=2022.07.01
+LOGO=XeroG-Dev
+IMAGE_ID=XeroG-Dev
+IMAGE_VERSION=2022.12.15

@@ -186,12 +186,12 @@ scanner-support
 ### XeroLinux Build
 
 abs
-xero-g-tool
-xero-g-config
 xero-calamares
+xero-g-tool-dev
 xero-fix-scripts
-calamares-g-config
+xero-g-config-dev
 xerolinux-mirrorlist
+calamares-g-config-dev
 
 #######################################################
 ###      PACKAGES THAT STAY AFTER INSTALLATION      ###
