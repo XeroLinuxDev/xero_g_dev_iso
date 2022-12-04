@@ -279,6 +279,7 @@ gtk-engine-murrine
 
 ### Rice/Config Related
 
+tela-purple-icon-theme-git
 kvantum-theme-libadwaita-git
 
 ### System Utilities
@@ -524,7 +525,6 @@ gnome-calculator
 gnome-screenshot
 gnome-dictionary
 gnome-user-share
-gnome-backgrounds
 gnome-connections
 gnome-break-timer
 gnome-font-viewer
