@@ -187,6 +187,7 @@ scanner-support
 ### XeroLinux Build
 
 abs
+xerowelcome
 xero-calamares
 xero-fix-scripts
 xero-g-config-dev
