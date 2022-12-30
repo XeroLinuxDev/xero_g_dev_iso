@@ -66,6 +66,7 @@ man-pages
 mc
 mdadm
 memtest86+
+memtest86+-efi
 mkinitcpio
 mkinitcpio-archiso
 mkinitcpio-nfs-utils
@@ -128,7 +129,6 @@ grub
 os-prober
 grub-tools
 update-grub
-grub-customizer
 
 ### archiso-extra
 
@@ -150,6 +150,7 @@ logrotate
 
 mesa
 autorandr
+mesa-utils
 xf86-video-qxl
 xf86-video-vesa
 xf86-video-fbdev
@@ -187,7 +188,6 @@ scanner-support
 
 abs
 xero-calamares
-xero-g-tool-dev
 xero-fix-scripts
 xero-g-config-dev
 xerolinux-mirrorlist
@@ -279,7 +279,7 @@ gtk-engine-murrine
 
 ### Rice/Config Related
 
-tela-purple-icon-theme-git
+tela-blue-icon-theme-git
 kvantum-theme-libadwaita-git
 
 ### System Utilities
@@ -562,10 +562,12 @@ extension-manager
 gnome-shell-extensions
 gnome-shell-extension-appindicator
 
-## Other GTK Stuff
+## Other Gnome Apps
 
+eog
 sushi
 gedit
+totem
 geary
 cheese
 baobab

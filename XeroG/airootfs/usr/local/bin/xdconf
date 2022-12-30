@@ -1,5 +1,6 @@
 #!/bin/sh
+dconf reset -f /org/gnome/
 dconf load /org/gnome/ < /etc/skel/.config/xero-dconf.conf
 dconf load /com/github/stunkymonkey/nautilus-open-any-terminal/ < /etc/skel/.config/term.conf &
 
-notify-send "Xero-G settings applied! 🔥"
+notify-send "Xero-G settings Applied/Restored! 🔥"
