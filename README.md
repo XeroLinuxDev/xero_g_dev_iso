@@ -2,11 +2,9 @@
 
 Repo for the **Xero-G** Dev Project. Feel free to go through files and learn how it's all done. To build ISO need to use **ABS** Script via guide below.
 
-### **DO NOT** install in a VM yet there's currently an issue with *Mutter* & latest *mesa* drivers, waiting for a fix upstream... Someday... ;)
-
 ### Note
-> This here, is a side project, it's always in progress to keep my skills sharp when it comes to GNOME...
-> There will **Never** be an ISO, so please do not ask for one. It will always remain that way.
+> This is the Dev version of XeroG. It's intended for the XeroLinux Team
+> For testing new features and fixes only !
 -----------------------------------------------------------------
 
 ![XeroLinux-Calamares](https://i.imgur.com/tJ64aOY.png)
